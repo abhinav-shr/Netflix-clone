@@ -1,0 +1,24 @@
+.movie_row::-webkit-scrollbar {
+    display: none;
+  }
+.movie_row {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.movie_row {display: flex;
+    flex-direction: row;
+    overflow: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.row_title{
+        color:white;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 1.2rem;
+        font-weight: 800;
+
+}
